@@ -1,227 +1,517 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>W3.CSS Template</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <style>
-      body {
-        font-family: "Times New Roman", Georgia, Serif;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Playfair Display";
-        letter-spacing: 5px;
-      }
-    </style>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>WoOx Travel Bootstrap 5 Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
   </head>
+
   <body>
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-      <div
-        class="w3-bar w3-white w3-padding w3-card"
-        style="letter-spacing: 4px"
-      >
-        <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
-        <!-- Right-sided navbar links. Hide them on small screens -->
-        <div class="w3-right w3-hide-small">
-          <a href="#about" class="w3-bar-item w3-button">About</a>
-          <a href="#menu" class="w3-bar-item w3-button">Menu</a>
-          <a href="/contact" class="w3-bar-item w3-button">Contact</a>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </div>
+    <!-- ***** Preloader End ***** -->
 
-    <!-- Header -->
-    <header
-      class="w3-display-container w3-content w3-wide"
-      style="max-width: 1600px; min-width: 500px"
-      id="home"
-    >
-      <img
-        class="w3-image"
-        src="https://www.w3schools.com/w3images/hamburger.jpg"
-        alt="Hamburger Catering"
-        width="1600"
-        height="800"
-      />
-      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-        <h1 class="w3-xxlarge">Le Catering</h1>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="/" class="logo">
+                <img src="assets/images/logo.png" alt="" />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/deals">Deals</a></li>
+                <li><a href="/reservation">Reservation</a></li>
+                <li><a href="/reservation">Book Yours</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
       </div>
     </header>
+    <!-- ***** Header Area End ***** -->
 
-    <!-- Page content -->
-    <div class="w3-content" style="max-width: 1100px">
-      <!-- About Section -->
-      <div class="w3-row w3-padding-64" id="about">
-        <div class="w3-col m6 w3-padding-large w3-hide-small">
-          <img
-            src="https://www.w3schools.com/w3images/tablesetting2.jpg"
-            class="w3-round w3-image w3-opacity-min"
-            alt="Table Setting"
-            width="600"
-            height="750"
-          />
+    <!-- ***** Main Banner Area Start ***** -->
+    <section id="section-1">
+      <div class="content-slider">
+        <input
+          type="radio"
+          id="banner1"
+          class="sec-1-input"
+          name="banner"
+          checked
+        />
+        <input type="radio" id="banner2" class="sec-1-input" name="banner" />
+        <input type="radio" id="banner3" class="sec-1-input" name="banner" />
+        <input type="radio" id="banner4" class="sec-1-input" name="banner" />
+        <div class="slider">
+          <div id="top-banner-1" class="banner">
+            <div class="banner-inner-wrapper header-text">
+              <div class="main-caption">
+                <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
+                <h1>Caribbean</h1>
+                <div class="border-button">
+                  <a href="/about">Go There</a>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="more-info">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-user"></i>
+                          <h4><span>Population:</span><br />44.48 M</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-globe"></i>
+                          <h4>
+                            <span>Territory:</span><br />275.400 KM<em>2</em>
+                          </h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-home"></i>
+                          <h4><span>AVG Price:</span><br />$946.000</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="top-banner-2" class="banner">
+            <div class="banner-inner-wrapper header-text">
+              <div class="main-caption">
+                <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
+                <h1>Switzerland</h1>
+                <div class="border-button">
+                  <a href="/about">Go There</a>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="more-info">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-user"></i>
+                          <h4><span>Population:</span><br />8.66 M</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-globe"></i>
+                          <h4>
+                            <span>Territory:</span><br />41.290 KM<em>2</em>
+                          </h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-home"></i>
+                          <h4><span>AVG Price:</span><br />$1.100.200</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="top-banner-3" class="banner">
+            <div class="banner-inner-wrapper header-text">
+              <div class="main-caption">
+                <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
+                <h1>France</h1>
+                <div class="border-button">
+                  <a href="/about">Go There</a>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="more-info">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-user"></i>
+                          <h4><span>Population:</span><br />67.41 M</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-globe"></i>
+                          <h4>
+                            <span>Territory:</span><br />551.500 KM<em>2</em>
+                          </h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-home"></i>
+                          <h4><span>AVG Price:</span><br />$425.600</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="top-banner-4" class="banner">
+            <div class="banner-inner-wrapper header-text">
+              <div class="main-caption">
+                <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
+                <h1>Thailand</h1>
+                <div class="border-button">
+                  <a href="/about">Go There</a>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="more-info">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-user"></i>
+                          <h4><span>Population:</span><br />69.86 M</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-globe"></i>
+                          <h4>
+                            <span>Territory:</span><br />513.120 KM<em>2</em>
+                          </h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <i class="fa fa-home"></i>
+                          <h4><span>AVG Price:</span><br />$165.450</h4>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-6">
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <nav>
+          <div class="controls">
+            <label for="banner1"
+              ><span class="progressbar"
+                ><span class="progressbar-fill"></span></span
+              ><span class="text">1</span></label
+            >
+            <label for="banner2"
+              ><span class="progressbar"
+                ><span class="progressbar-fill"></span></span
+              ><span class="text">2</span></label
+            >
+            <label for="banner3"
+              ><span class="progressbar"
+                ><span class="progressbar-fill"></span></span
+              ><span class="text">3</span></label
+            >
+            <label for="banner4"
+              ><span class="progressbar"
+                ><span class="progressbar-fill"></span></span
+              ><span class="text">4</span></label
+            >
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- ***** Main Banner Area End ***** -->
 
-        <div class="w3-col m6 w3-padding-large">
-          <h1 class="w3-center">About Catering</h1>
-          <br />
-          <h5 class="w3-center">Tradition since 1889</h5>
-          <p class="w3-large">
-            The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor
-            sit amet, consectetur adipiscing elit consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.We only use
-            <span class="w3-tag w3-light-grey">seasonal</span> ingredients.
-          </p>
-          <p class="w3-large w3-text-grey w3-hide-medium">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum consectetur adipiscing
-            elit, sed do eiusmod temporincididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
+    <div class="visit-country">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="section-heading">
+              <h2>Visit One Of Our Countries Now</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="items">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/country-01.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>SWITZERLAND</h4>
+                          <span>Europe</span>
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                          <p>
+                            Woox Travel is a professional Bootstrap 5 theme HTML
+                            CSS layout for your website. You can use this layout
+                            for your commercial work.
+                          </p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> 8.66 Mil People</li>
+                            <li><i class="fa fa-globe"></i> 41.290 km2</li>
+                            <li><i class="fa fa-home"></i> $1.100.200</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="/about"
+                              >Need Directions ?
+                              <i class="fa fa-arrow-right"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/country-02.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>CARIBBEAN</h4>
+                          <span>North America</span>
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore
+                            dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod.
+                          </p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> 44.48 Mil People</li>
+                            <li><i class="fa fa-globe"></i> 275.400 km2</li>
+                            <li><i class="fa fa-home"></i> $946.000</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="/about"
+                              >Need Directions ?
+                              <i class="fa fa-arrow-right"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item last-item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/country-03.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>FRANCE</h4>
+                          <span>Europe</span>
+                          <div class="main-button">
+                            <a href="/about">Explore More</a>
+                          </div>
+                          <p>
+                            We hope this WoOx template is useful for you, please
+                            support us a
+                            <a
+                              href="https://paypal.me/templatemo"
+                              target="_blank"
+                              >small amount of PayPal</a
+                            >
+                            to info [at] templatemo.com for our survival. We
+                            really appreciate your contribution.
+                          </p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> 67.41 Mil People</li>
+                            <li><i class="fa fa-globe"></i> 551.500 km2</li>
+                            <li><i class="fa fa-home"></i> $425.600</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="/about"
+                              >Need Directions ?
+                              <i class="fa fa-arrow-right"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="page-numbers">
+                    <li>
+                      <a href="#"><i class="fa fa-arrow-left"></i></a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li class="active"><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li>
+                      <a href="#"><i class="fa fa-arrow-right"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="side-bar-map">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div id="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth"
+                      width="100%"
+                      height="550px"
+                      frameborder="0"
+                      style="border: 0; border-radius: 23px"
+                      allowfullscreen=""
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <hr />
-
-      <!-- Menu Section -->
-      <div class="w3-row w3-padding-64" id="menu">
-        <div class="w3-col l6 w3-padding-large">
-          <h1 class="w3-center">Our Menu</h1>
-          <br />
-          <h4>Bread Basket</h4>
-          <p class="w3-text-grey">
-            Assortment of fresh baked fruit breads and muffins 5.50
-          </p>
-          <br />
-
-          <h4>Honey Almond Granola with Fruits</h4>
-          <p class="w3-text-grey">
-            Natural cereal of honey toasted oats, raisins, almonds and dates
-            7.00
-          </p>
-          <br />
-
-          <h4>Belgian Waffle</h4>
-          <p class="w3-text-grey">
-            Vanilla flavored batter with malted flour 7.50
-          </p>
-          <br />
-
-          <h4>Scrambled eggs</h4>
-          <p class="w3-text-grey">
-            Scrambled eggs, roasted red pepper and garlic, with green onions
-            7.50
-          </p>
-          <br />
-
-          <h4>Blueberry Pancakes</h4>
-          <p class="w3-text-grey">
-            With syrup, butter and lots of berries 8.50
-          </p>
-        </div>
-
-        <div class="w3-col l6 w3-padding-large">
-          <img
-            src="https://www.w3schools.com/w3images/tablesetting.jpg"
-            class="w3-round w3-image w3-opacity-min"
-            alt="Menu"
-            style="width: 100%"
-          />
-        </div>
-      </div>
-
-      <hr />
-
-      <!-- Contact Section -->
-      <div class="w3-container w3-padding-64" id="contact">
-        <h1>Contact</h1>
-        <br />
-        <p>
-          We offer full-service catering for any event, large or small. We
-          understand your needs and we will cater the food to satisfy the
-          biggerst criteria of them all, both look and taste. Do not hesitate to
-          contact us.
-        </p>
-        <p class="w3-text-blue-grey w3-large">
-          <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
-        </p>
-        <p>
-          You can also contact us by phone 00553123-2323 or email
-          catering@catering.com, or you can send us a message here:
-        </p>
-        <form action="/action_page.php" target="_blank">
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Name"
-              required
-              name="Name"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="number"
-              placeholder="How many people"
-              required
-              name="People"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="datetime-local"
-              placeholder="Date and time"
-              required
-              name="date"
-              value="2020-11-16T20:00"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Message \ Special requirements"
-              required
-              name="Message"
-            />
-          </p>
-          <p>
-            <button class="w3-button w3-light-grey w3-section" type="submit">
-              SEND MESSAGE
-            </button>
-          </p>
-        </form>
-      </div>
-
-      <!-- End page content -->
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-center w3-light-grey w3-padding-32">
-      <p>
-        Powered by
-        <a
-          href="https://www.w3schools.com/w3css/default.asp"
-          title="W3.CSS"
-          target="_blank"
-          class="w3-hover-text-green"
-          >w3.css</a
-        >
-      </p>
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>Are You Looking To Travel ?</h2>
+            <h4>Make A Reservation By Clicking The Button</h4>
+          </div>
+          <div class="col-lg-4">
+            <div class="border-button">
+              <a href="/reservation">Book Yours Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights
+              reserved. <br />Design:
+              <a
+                href="https://templatemo.com"
+                target="_blank"
+                title="free CSS templates"
+                >TemplateMo</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+      function bannerSwitcher() {
+        next = $(".sec-1-input").filter(":checked").next(".sec-1-input");
+        if (next.length) next.prop("checked", true);
+        else $(".sec-1-input").first().prop("checked", true);
+      }
+
+      var bannerTimer = setInterval(bannerSwitcher, 5000);
+
+      $("nav .controls label").click(function () {
+        clearInterval(bannerTimer);
+        bannerTimer = setInterval(bannerSwitcher, 5000);
+      });
+    </script>
   </body>
 </html>

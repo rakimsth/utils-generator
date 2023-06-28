@@ -15,6 +15,9 @@ app.use(cors());
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
+// Serving the static files
+app.use(express.static("public"));
+
 app.use("/", indexRouter);
 
 app.listen(8000, () => {

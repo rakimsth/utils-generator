@@ -11,6 +11,18 @@ router.get("/", (req, res) => {
   res.render("index");
 });
 
+router.get("/about", (req, res) => {
+  res.render("about");
+});
+
+router.get("/deals", (req, res) => {
+  res.render("deals");
+});
+
+router.get("/reservation", (req, res) => {
+  res.render("reservation");
+});
+
 router.get("/contact", (req, res) => {
   res.render("contact");
 });
