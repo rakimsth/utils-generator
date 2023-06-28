@@ -20,6 +20,12 @@ app.use(express.static("public"));
 
 app.use("/", indexRouter);
 
+// Application Level Error Handler
+app.use((err, req, res, next) => {
+  console.log(err);
+  res.status(500).send("Something went wrong");
+});
+
 app.listen(8000, () => {
   console.log("Server running on port 8000");
 });
