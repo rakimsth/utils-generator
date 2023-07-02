@@ -20,10 +20,10 @@
         const contactForm = document.getElementById("contactForm");
         // Caputure input from form
         const payload = {
-          name: document.getElementById("name").value,
+          name: document.getElementById("name").value, // name : "Raktim Shrestha"
         };
         // Send data to server
-        axios.post("/api/v1/form", payload).then((res) => {
+        axios.post("/api/v1/contacts", payload).then((res) => {
           // Display the data
           document.getElementById("msg").innerHTML = res.data.msg;
           //reset the form after success
