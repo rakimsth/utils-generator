@@ -5,10 +5,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 
-// mongodb Connection
-mongoose
-  .connect("mongodb://localhost:27017/utils-generator")
-  .then(() => console.log("Database Connected!"));
+// 1. Create Database Connection
+mongoose.connect("mongodb://localhost:27017/todoApp").then(() => {
+  console.log("Database Connected");
+});
 
 const app = express();
 
